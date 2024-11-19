@@ -21,6 +21,6 @@ style:
 	pycodestyle --max-line-length=${PYCODESTYLE_MAX_LINE_LENGTH} *.py || true
 
 unittest:
-#	python -m unittest tests/*.py
+	python -m unittest tests/*.py
 
 test: unittest
